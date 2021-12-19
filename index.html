@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electronic Home</title>
+    <link rel="shortcut icon" href="images/favicon-cart.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- NAV -->
+    <section class="nav" id="nav">
+        <h2 id="nombre-de-usuario">Electronic Home</h2>
+        <ul id="ul-nav">
+            <li id="registro" class="sub-menu">Registrarse</li>
+            <li class="sub-menu">
+                <div class="switch" id="switch"></div>
+            </li>
+            <li class="sub-menu">Lorem</li>
+            <li class="sub-menu">Lorem</li>
+            <li id="carrito">
+                <div id="masUno">+1</div>
+                <div id="foto-carrito"></div>
+            </li>
+                <div id="acceso-carrito"></div>
+        </ul>
+    </section>
+
+    <p class="dolarHoy">Dolar hoy(Argentina): $</p>
+
+    <section id ="datos">
+        <div id="datos-del-usuario" class="aparecer">
+            <input type="text" placeholder="Nombre" id="nombre">
+            <p id="cerrar">Enviar</p>
+        </div>
+    </section>
+    
+    <!-- PRODUCTOS -->
+
+    <section id = "productos"></section>
+    <section id="ultima-instancia">
+        <button id="volver">X</button>
+        <modal id="proceso-de-compra">
+            
+        </modal>
+    </section>
+
+    <!-- FOOTER -->
+
+    <section class="footer">
+        <footer>
+            <p id="descripcion-footer">Simulador e-commerce realizado por Daniel Leone como proyecto final para "<i>CoderHouse</i>"</p>
+        </footer>
+    </section>
+
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
